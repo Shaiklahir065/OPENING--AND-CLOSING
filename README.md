@@ -36,7 +36,7 @@ import matplotlib.pyplot as plt
 ```
 img = np.zeros((100, 550), dtype = 'uint8')
 font = cv2.FONT_ITALIC
-cv2.putText(img, 'Buna', (5,70), font, 2, (255), 5, cv2.LINE_AA)
+cv2.putText(img, 'DOGO', (5,70), font, 2, (255), 5, cv2.LINE_AA)
 n_img = cv2.cvtColor(img, cv2.COLOR_BGR2RGB)
 plt.imshow(n_img)
 plt.axis("off")
@@ -60,15 +60,15 @@ plt.axis("off")
 ## Output:
 
 ### Display the input Image
-![image](https://github.com/Ragu-123/OPENING--AND-CLOSING/assets/113915622/25b1cec7-5c2f-46b7-8b8e-df3135dba579)
+![image](https://github.com/user-attachments/assets/47ee6b33-4540-46cd-8c46-d6923ff96d2a)
 
 
 ### Display the result of Opening
-![image](https://github.com/Ragu-123/OPENING--AND-CLOSING/assets/113915622/d85d4bcd-c32c-45cd-9b5f-819491180b1a)
+![image](https://github.com/user-attachments/assets/56729127-45d6-4fc3-a2a1-43643b31d62c)
 
 
 ### Display the result of Closing
-![image](https://github.com/Ragu-123/OPENING--AND-CLOSING/assets/113915622/21db0d5f-4270-4960-9181-4cdaf1e0a62c)
+![image](https://github.com/user-attachments/assets/5bac31cd-bf36-4e2f-b3e9-6e22a93720ab)
 
 
 
